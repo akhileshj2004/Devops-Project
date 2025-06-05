@@ -1621,6 +1621,23 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 1.5rem;
 }
 
+.timeline-screenshot {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid rgba(0, 255, 255, 0.3);
+    box-shadow: 0 5px 15px rgba(0, 255, 255, 0.2);
+    transition: all 0.3s ease;
+    backdrop-filter: blur(5px);
+}
+
+.timeline-screenshot:hover {
+    transform: scale(1.05);
+    border-color: var(--primary-neon);
+    box-shadow: 0 10px 25px rgba(0, 255, 255, 0.4);
+}
+
 .image-placeholder {
     background: var(--card-bg);
     border: 2px dashed rgba(0, 255, 255, 0.3);
